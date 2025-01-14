@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tommie's blog</title>
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">  for responsive website view-->
+  </head>
+  <body>
+    <header>
+    <div id="logo">
+    <h1 id="site"><a href="#">Travel with Tommie in Canada!</a></h1>
+    <p>My daily life in Canada!</p>
+    </div>
+    <nav aria-label="menu list">
+      <ul>
+        <li class="menu"><a href="#">Home</a></li>
+        <li class="menu"><a href="#">Travel</a></li>
+        <li class="menu"><a href="#">House</a></li>
+        <li class="menu"><a href="#">Work</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Canadian Souvenirs</h2>
+        <h3>Date: October 8, 2024</h3>
+
+        <p>Canada is famous for its maple trees and leaves, which is why there are so many maple-related products.
+        Therefore, I would like to introduce two maple products to you as the Canadian souvenirs.</p>
+        
+        <div><img src="image/maple_cookies.jpg" alt="This is the photo of maple cookies." height="200"></div>
+        <p>First up is maple cookies, which are maple-flavored cookies:</p>        
+        <p>Dare Maple Cookie: Sweetness is just right! Subtle maple flavor, mildly sweet and easy to eat! Overall, very tasty!</p>        
+        <p>Mr. Maple: Delicious! Not too sweet, with a unique maple aftertaste.</p>        
+        <p>Leclerc Maple Leaf Cookie: Too sweet! Smells like McDonald's syrup, and tastes like the cream on a thumbprint cookie.</p>
+        <p>Peek Freans Maple Leaf Cookie: Way too sweet! So sweet it made me feel sick.</p>
+                
+        <div><img src="image/maple_tea.jpg" alt="This is the photo of maple leaf tea." height="200"></div>
+        <p>The second one is Maple tea. It turns out that the so-called "maple leaf tea" is actually black tea, green tea, or herbal tea with added maple
+        flavor, not real maple leaves. Also, it's recommended to drink it soon after opening, as the maple aroma fades over time. The brand to look for is
+        CANADA TRUE. </p> 
+        <p>Black Tea: Tastes good, with a noticeable maple aftertaste.</p>        
+        <p>Green Tea: It’s okay, but the bitterness of the green tea stands out.</p>        
+        <p>Herbal Tea: After sitting for a while, the maple flavor became faint, and the herbal notes were more prominent. Personally, I find it acceptable.
+        A friend tried it and mentioned it had a maple aroma, but no sweetness when drinking it, which felt quite contradictory.
+        Hmm… maybe it could work as a diet tea?</p>
+        <p>If you have any other suggestions, please leave a comment to let me know!</p>
+        
+        <form method="post" id="comment">
+          <fieldset>
+            <legend>Let me know more about your thoughts</legend>
+            <div>
+              <label for="userid">Name:</label>
+              <input type="text" id="userid" name="userid" placeholder="John">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="john.doe@example.com">
+            </div>
+            <div>
+              <label for="message">Your comment:</label>
+            </div>
+            <div>
+              <textarea id="message" name="msg" placeholder="Tell me what you think..."></textarea>
+            </div>
+            <div>
+              <button type="submit">Leave a comment</button>
+            </div>
+          </fieldset>
+        </form>
+      </article>
+
+      <aside>
+        <section id="aboutme">
+          <div class="self"><img src="image/self.jpg" alt="This is my selfie." width="150"></div>
+          <h2 class="self">About me</h2>
+          <p>Hi, I am Tommie Tong.</p>
+          <p>I love to visit the museums and art galleries around Canada. </p>
+          <a href="https://www.linkedin.com/in/tommie-tong-89a4a7211/">My LinkedIn</a>
+        </section>
+        <section id="recommendation">
+          <h2>Recommended articles</h2>
+          <ul>
+            <li><a href="#">Doors Open Toronto</a></li>
+            <li><a href="#">Toronto Zoo</a></li>
+            <li><a href="#">Unionville</a></li>
+            <li><a href="#">Ontario Science Centre</a></li>
+          </ul>
+        </section>
+        <section id="subscribe">
+          <h2>Want to stay up to date?</h2>
+          <p>Sign up for subscription.</p>
+          <form method="post">
+            <label for="email">Your email:</label>
+            <input type="email" id="subemail" name="subemail" placeholder="john.doe@example.com">
+            <button type="submit">Subscribe now</button>
+          </form>
+        </section>
+      </aside>
+    </main>
+ 
+    <footer id="copyright">
+      <div>&copy;Copyright Kit Ying Tong, 2024.</div>
+    </footer>
+  </body>
+</html>
